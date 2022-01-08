@@ -1,0 +1,9 @@
+creating a new repository via the github website and then initializing it as suggested by Github  worked for me
+
+echo "# Secrets" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Developer007007/origin.git
+git push -u origin main
